@@ -11,12 +11,6 @@ body {
   margin-top: 100px 0;
 }
 
-img {
-  border: 2px solid black;
-  border-radius: 20px;
-  box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
-}
-
 h1,
 h2,
 h3,
@@ -45,10 +39,16 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   font-family:var(--default-font-family);
   font-weight: bold;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
 }
 
 .hero {
@@ -93,6 +93,20 @@ p {
  padding: 120px 60px; 
 
  }
+
+ .about-section {
+   padding: 160px 20px;
+ }
+
+
+ .about-section h1 {
+font-size: 64px;
+line-height: 1;
+ }
+
+.about-section-content {
+  margin: 30px;
+}
 
 .navigation-links {
   display: flex;
@@ -169,8 +183,8 @@ p {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 60px;
-    line-height: 2;
+    font-size: 44px;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -181,6 +195,10 @@ p {
   }
   .hero {
   padding: 80px 20px;
+  }
+  .about-section {
+   text-align: center;
+   padding: 0;
   }
   .project-link {
     display: block;
