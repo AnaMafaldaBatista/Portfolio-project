@@ -108,7 +108,7 @@ line-height: 1;
  }
 
 
-
+ 
 
 
 
@@ -116,11 +116,12 @@ line-height: 1;
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  
 }
 
 .navigation-links a {
   margin: 20px;
-}
+  }
 
 .primary-link {
   border-radius: 4px;
